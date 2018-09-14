@@ -2,3 +2,5 @@
 export VERSION=2.0.2
 
 sudo /opt/geomesa-hbase_2.11-${VERSION}/bin/bootstrap-geomesa-hbase-aws.sh
+
+echo LOG OUT AND LOG IN
