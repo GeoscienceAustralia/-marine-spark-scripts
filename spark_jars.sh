@@ -5,4 +5,4 @@ echo $JARS
 
 # then
 # spark-shell --jars $JARS
-# spark> :load gdelt.scala
+# scala> :load gdelt.scala
