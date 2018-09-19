@@ -1,14 +1,16 @@
 geomesa.sfts.ais-data = {
     attributes = [
-        { name = "arkposid",    type = "Long",    index = true    }
-        { name = "mmsi",    type = "Integer",    index = false    }
-        { name = "navigationalstatus",    type = "Integer",    index = false    }
-        { name = "coords",    type = "Point",    index = true,    srid = 4326, default = true    }
-        { name = "sog",    type = "Double",    index = false    }
-        { name = "cog",    type = "Double",    index = false    }
-        { name = "rot",    type = "Double",    index = false    }
-        { name = "heading",    type = "Integer",    index = false    }
-        { name = "acquisitiontime",    type = "String",    index = false    }
-        { name = "iptype",    type = "Integer",    index = false    }
+        { name = "depth",     type = "Double",          index = false  }
+        { name = "dtg",      type = "Date",         index = false }
+        { name = "project", type = "String",            index = false }
+        { name = "vessel", type = "String",            index = false }
+        { name = "line", type = "String",            index = false }
+        { name = "profile", type = "String",            index = false }
+        { name = "beam", type = "String",            index = false }
+        { name = "accuracy", type = "String",            index = false }
+        { name = "status", type = "String",            index = false }
+        { name = "geom",     type = "Point",           index = true, srid = 432\
+6, default = true }
+
     ]
 }
