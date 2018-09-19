@@ -1,0 +1,14 @@
+geomesa.sfts.ais-data = {
+    attributes = [
+        { name = "arkposid",    type = "Long",    index = true    }
+        { name = "mmsi",    type = "Integer",    index = false    }
+        { name = "navigationalstatus",    type = "Integer",    index = false    }
+        { name = "coords",    type = "Point",    index = true,    srid = 4326, default = true    }
+        { name = "sog",    type = "Double",    index = false    }
+        { name = "cog",    type = "Double",    index = false    }
+        { name = "rot",    type = "Double",    index = false    }
+        { name = "heading",    type = "Integer",    index = false    }
+        { name = "acquisitiontime",    type = "String",    index = false    }
+        { name = "iptype",    type = "Integer",    index = false    }
+    ]
+}
