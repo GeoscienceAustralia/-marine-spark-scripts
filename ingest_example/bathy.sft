@@ -1,4 +1,4 @@
-geomesa.ga.bathytxt = {
+geomesa.sfts.bathytxt = {
     attributes = [
         { name = "depth",     type = "Double",          index = false  }
         { name = "dtg",      type = "Date",         index = false }

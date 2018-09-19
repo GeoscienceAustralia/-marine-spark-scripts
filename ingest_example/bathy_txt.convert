@@ -1,4 +1,4 @@
-geomesa.converters.bathy = {
+geomesa.converters.bathytxt = {
   type     = "delimited-text",
   format   = "CSV",
   id-field = "md5($0)",
