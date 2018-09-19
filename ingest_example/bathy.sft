@@ -1,4 +1,4 @@
-geomesa.sfts.ais-data = {
+geomesa.ga.bathytxt = {
     attributes = [
         { name = "depth",     type = "Double",          index = false  }
         { name = "dtg",      type = "Date",         index = false }
@@ -9,8 +9,7 @@ geomesa.sfts.ais-data = {
         { name = "beam", type = "String",            index = false }
         { name = "accuracy", type = "String",            index = false }
         { name = "status", type = "String",            index = false }
-        { name = "geom",     type = "Point",           index = true, srid = 432\
-6, default = true }
+        { name = "geom",     type = "Point",           index = true, srid = 4326, default = true }
 
     ]
 }
