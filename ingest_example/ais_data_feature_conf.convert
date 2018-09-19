@@ -1,0 +1,19 @@
+geomesa.converters.ais-data = {
+    type = "delimited-text",
+    format = "CSV",
+    id-field = "toString($arkposid)",
+    fields = [
+        { name = "arkposid",    transform = "$1::long"    }
+        { name = "mmsi",    transform = "$2::int"    }
+        { name = "navigationalstatus",    transform = "$3::int"    }
+        { name = "lon",    transform = "$4::double"    }
+        { name = "lat",    transform = "$5::double"    }
+        { name = "coords",    transform = "point($lon, $lat)"    }
+        { name = "sog",    transform = "$6::double"    }
+        { name = "cog",    transform = "$7::double"    }
+    	{ name = "rot",    transform = "$8::double"    }
+        { name = "heading",    transform = "$9::int"    }
+    	{ name = "acquisitiontime",    transform = "toString($10)"    }
+    	{ name = "iptype",    transform = "$11::int"    }
+    ]
+}
