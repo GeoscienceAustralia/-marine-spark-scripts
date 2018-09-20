@@ -4,6 +4,6 @@
 
 geomesa-hbase ingest \
 -c ais \
--s ais_data_conf.sft \
--C ais_data_feature_conf.convert \
-sample.csv
+-s ais_data_conf1.sft \
+-C ais_data_feature_conf1.convert \
+sample1.csv
