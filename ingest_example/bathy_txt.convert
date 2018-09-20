@@ -1,7 +1,7 @@
 geomesa.converters.bathytxt = {
   type     = "delimited-text",
   format   = "CSV",
-  id-field = "md5($0)",
+  id-field = "uuid()",
   fields = [
     { name = "lat",    transform = "$1::double" },
     { name = "lon",    transform = "$2::double" },
