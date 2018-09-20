@@ -6,4 +6,4 @@ geomesa-hbase ingest \
 -c test_bathy \
 -s bathy.sft \
 -C bathy_txt.convert \
-tiny_bath.txt
+bath_small.txt

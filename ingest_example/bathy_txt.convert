@@ -1,6 +1,9 @@
 geomesa.converters.bathytxt6 = {
   type     = "delimited-text",
   format   = "CSV",
+  options {
+  skip-lines = 1
+  }
   id-field = "uuid()",
   fields = [
     { name = "lat",    transform = "$1::double" },
