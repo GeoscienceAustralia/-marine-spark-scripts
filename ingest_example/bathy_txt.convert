@@ -6,7 +6,7 @@ geomesa.converters.bathytxt5 = {
     { name = "lat",    transform = "$1::double" },
     { name = "lon",    transform = "$2::double" },
     { name = "depth",    transform = "$3::double" },
-    { name = "dtg",    transform = "dateHourMinuteSecondMillis($4)" },
+    { name = "time",    transform = "$4::string" },
     { name = "project", transform = "$5::string" },
     { name = "vessel", transform = "$6::string" },
     { name = "line", transform = "$7::string" },
