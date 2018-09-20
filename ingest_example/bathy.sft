@@ -1,7 +1,7 @@
-geomesa.sfts.bathytxt5 = {
+geomesa.sfts.bathytxt6 = {
     attributes = [
         { name = "depth",     type = "Double",          index = false  }
-        { name = "dtg",      type = "Date",         index = false }
+        { name = "time",      type = "String",         index = false }
         { name = "project", type = "String",            index = false }
         { name = "vessel", type = "String",            index = false }
         { name = "line", type = "String",            index = false }

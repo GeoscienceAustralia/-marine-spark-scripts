@@ -1,4 +1,4 @@
-geomesa.converters.bathytxt5 = {
+geomesa.converters.bathytxt6 = {
   type     = "delimited-text",
   format   = "CSV",
   id-field = "uuid()",
