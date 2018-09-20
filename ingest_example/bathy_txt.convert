@@ -16,8 +16,4 @@ geomesa.converters.bathytxt = {
     { name = "status", transform = "$11::string" },
     { name = "geom",   transform = "point($lon, $lat)" }
   ]
-  user-data = {
-    // note: keys will be treated as strings and should not be quoted
-    my.user.key = "$phrase"
-  }
 }
