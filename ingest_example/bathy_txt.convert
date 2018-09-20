@@ -1,19 +1,10 @@
-geomesa.converters.bathytxt = {
+geomesa.converters.bathytxt2 = {
   type     = "delimited-text",
   format   = "CSV",
   id-field = "uuid()",
   fields = [
     { name = "lat",    transform = "$1::double" },
     { name = "lon",    transform = "$2::double" },
-    { name = "depth",    transform = "$3::double" },
-    { name = "dtg",    transform = "dateHourMinuteSecondMillis($4)" },
-    { name = "project", transform = "$5::string" },
-    { name = "vessel", transform = "$6::string" },
-    { name = "line", transform = "$7::string" },
-    { name = "profile", transform = "$8::string" },
-    { name = "beam", transform = "$9::string" },
-    { name = "accuracy", transform = "$10::string" },
-    { name = "status", transform = "$11::string" },
     { name = "geom",   transform = "point($lon, $lat)" }
   ]
 }
