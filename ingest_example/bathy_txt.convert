@@ -1,4 +1,4 @@
-geomesa.converters.bathytxt6 = {
+geomesa.converters.bathytxt = {
   type     = "delimited-text",
   format   = "CSV",
   options {

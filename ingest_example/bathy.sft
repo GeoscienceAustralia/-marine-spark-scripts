@@ -1,4 +1,4 @@
-geomesa.sfts.bathytxt6 = {
+geomesa.sfts.bathytxt = {
     attributes = [
         { name = "depth",     type = "Double",          index = false  }
         { name = "time",      type = "String",         index = false }
