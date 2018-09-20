@@ -1,7 +1,4 @@
 geomesa.sfts.bathy2 = {
-    type = "delimited-text",
-    format = "CSV",
-    id-field = "uuid()",
     attributes = [
          { name = "mmsi",    type = "Integer",    index = false    }
         { name = "navigationalstatus",    type = "Integer",    index = false    }

@@ -1,6 +1,7 @@
 geomesa.converters.bathy = {
     type = "delimited-text",
     format = "CSV",
+    id-field = "uuid()",
     fields = [
         { name = "mmsi",    transform = "$2::int"    }
         { name = "navigationalstatus",    transform = "$3::int"    }
