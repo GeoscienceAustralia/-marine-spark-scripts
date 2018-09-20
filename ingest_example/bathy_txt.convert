@@ -1,4 +1,4 @@
-geomesa.converters.bathytxt4 = {
+geomesa.converters.bathytxt5 = {
   type     = "delimited-text",
   format   = "CSV",
   id-field = "uuid()",
@@ -6,6 +6,7 @@ geomesa.converters.bathytxt4 = {
     { name = "lat",    transform = "$1::double" },
     { name = "lon",    transform = "$2::double" },
     { name = "depth",    transform = "$3::double" },
+    { name = "dtg",    transform = "dateHourMinuteSecondMillis($4)" },
     { name = "project", transform = "$5::string" },
     { name = "vessel", transform = "$6::string" },
     { name = "line", transform = "$7::string" },
